@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-console": 0,
+    "comma-dangle": 0,
+    "react/jsx-filename-extension": 0,
+    "no-mixed-operators": 0
+  },
+  "globals": {
+    "fetch": false,
+    "window": false,
+    "XMLHttpRequest": false,
+    "document": false,
+    "URL": false,
+    "requestAnimationFrame": false,
+    "performance": false,
+  }
+}

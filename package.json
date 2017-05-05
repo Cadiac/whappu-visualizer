@@ -1,0 +1,41 @@
+{
+  "name": "whappu-visualizer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Whappu data visualizer",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn build && node server.js",
+    "dev": "concurrently \"react-scripts start\" \"nodemon server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Jaakko Husso (jaakko.husso@futurice.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "boom": "^4.3.1",
+    "good": "^7.1.0",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0",
+    "knex": "^0.12.9",
+    "lodash": "^4.17.4",
+    "objection": "^0.7.12",
+    "pg": "^6.1.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "vis": "^4.19.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "nodemon": "^1.11.0",
+    "react-scripts": "0.9.5"
+  }
+}
